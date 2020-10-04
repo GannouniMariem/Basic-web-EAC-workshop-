@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Secular+One&display=swap");
+
+
+.introSection {
+  background: url("./assets/bg.png");
+  background-repeat: repeat;
+}
+.home {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.introSection__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.introSection__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #e43f72;
+}
+
+.introSection__img > img,
+.about__img > img {
+  width: 155px;
+}
+
+.introSection__title {
+  font-size: 45px;
+  color: #707070;
+  font-family: "Roboto", sans-serif;
+}
+
+.introSection__desc {
+  margin-top: auto;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.introSection__icon {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.introSection__icon > .linkedin :hover {
+  color: #0e76a8;
+}
+.introSection__icon > .instagram:hover {
+  color: #3f729b;
+}
+
+.introSection__icon > .twitter:hover {
+  color: #00acee;
+}
+
+
+
+.About,
+.skills,
+.Tools {
+  display: grid;
+  place-items: center;
+  background-color: #fbfcfc;
+  margin-top: 100px;
+}
+
+.About > h1,
+.Skills__title,
+.Tools__title,
+.Project__title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #e43f72;
+  text-align: center;
+}
+
+.about__info {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+}
+
+.about__img {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  margin-left: 20px;
+}
+.about__img > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.about__desc {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+}
+
+.about__desc > p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+  color: #707070ca;
+}
+
+.skills__icon,
+.Tools__icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: 50px 0;
+}
+.skills__icon > img,
+.Tools__icon > img {
+  width: 60px;
+}
+.project {
+  display: grid;
+}
+.projectSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+.myProject {
+  width: 36%;
+  text-align: center;
+  margin: 50px;
+}
+
+.myProject > img {
+  width: 350px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-left: 2px solid #e43f72;
+  border-bottom: 2px solid #e43f72;
+}
+
+.myProject > h2 {
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+}
+.myProject > p {
+  color: #707070ca;
+}
+
+.copyright {
+  color: rgb(0, 0, 0, 0.8);
+  text-align: center;
+}
